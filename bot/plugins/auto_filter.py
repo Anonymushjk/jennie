@@ -68,16 +68,16 @@ async def auto_filter(bot: Client, update: Message):
             file_link = filter.get("file_link")
             file_size = int(filter.get("file_size", "0"))
             
-            # from B to MiB
+            # from B to MB
             
             if file_size < 1024:
                 file_size = f"[{file_size} B]"
             elif file_size < (1024**2):
-                file_size = f"[{str(round(file_size/1024, 2))} KiB] "
+                file_size = f"[{str(round(file_size/1024, 2))} KB] "
             elif file_size < (1024**3):
-                file_size = f"[{str(round(file_size/(1024**2), 2))} MiB] "
+                file_size = f"[{str(round(file_size/(1024**2), 2))} MB] "
             elif file_size < (1024**4):
-                file_size = f"[{str(round(file_size/(1024**3), 2))} GiB] "
+                file_size = f"[{str(round(file_size/(1024**3), 2))} GB] "
             
             
             file_size = "" if file_size == ("[0 B]") else file_size
@@ -143,7 +143,7 @@ async def auto_filter(bot: Client, update: Message):
         len_results = len(results)
         results = None # Free Up Memory
         
-        FIND[query] = {"results": result, "total_len": len_results, "max_pages": max_pages} # TrojanzHex's Idea Of Dicts😅
+        FIND[query] = {"results": result, "total_len": len_results, "max_pages": max_page }
 
         # Add next buttin if page count is not equal to 1
         if len_result != 1:
