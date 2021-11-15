@@ -1,8 +1,8 @@
 # Jennie auto filter bot
 
 <p align="center">
-  <a href="https://github.com/CrazyBotsz/Adv-Auto-Filter-Bot-V2/stargazers">
-    <img src="https://img.shields.io/github/stars/CrazyBotsz/Adv-Auto-Filter-Bot-V2?style=social">
+  <a href="https://github.com/Anonymushjk/jennie/stargazers">
+    <img src="https://img.shields.io/github/stars/Anonymushjk/jennie?style=social">
 
   </a>
   
