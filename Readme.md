@@ -5,11 +5,7 @@
     <img src="https://img.shields.io/github/stars/Anonymushjk/jennie?style=social">
 
   </a>
-  
-  <a href="https://github.com/CrazyBotsz/Adv-Auto-Filter-Bot-V2/fork">
-    <img src="https://img.shields.io/github/forks/CrazyBotsz/Adv-Auto-Filter-Bot-V2?label=Fork&style=social">
-
-  </a>  
+    
 </p>
 
 __This Is Just An Simple Advance Auto Filter Bot Complete Rewritten Version Of [Adv-Filter-Bot](https://github.com/CrazyBotsz/Adv-Auto-Filter-Bot)..__
