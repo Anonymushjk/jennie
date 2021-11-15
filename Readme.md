@@ -2,7 +2,6 @@
 
 <p align="center">
   <a href="https://github.com/Anonymushjk/jennie/stargazers">
-    <img src="https://img.shields.io/github/stars/Anonymushjk/jennie?style=social">
 
   </a>
     
